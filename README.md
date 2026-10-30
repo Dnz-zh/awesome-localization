@@ -6,6 +6,8 @@ Browse products for translating content, publishing across languages, internatio
 
 [Suggest a tool or correction](https://github.com/ilyaspiridonov/awesome-localization/issues/new), or read the [contribution guide](contributing.md) for eligibility and evidence requirements. OSS labels link to the applicable open-source license.
 
+[Browse the web version](https://ilyaspiridonov.github.io/awesome-localization/).
+
 ## Contents
 
 - [Translation Engines, APIs, and Models](#translation-engines-apis-and-models)
