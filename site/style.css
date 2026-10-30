@@ -58,10 +58,10 @@ svg { flex-shrink: 0; }
 .header-actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
 .wordmark { display: inline-flex; align-items: center; gap: 11px; font-family: "Unbounded", system-ui, sans-serif; font-size: 14px; font-weight: 750; letter-spacing: -.035em; color: var(--ink); text-decoration: none; }
 .brand-mark { display: block; flex-shrink: 0; object-fit: contain; }
-.github-link, .contribution-link { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 40px; padding: 8px 13px; border: 1px solid transparent; border-radius: 6px; font-size: 14px; font-weight: 650; text-decoration: none; white-space: nowrap; }
+.github-link, .locmanic-link { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 40px; padding: 8px 13px; border: 1px solid transparent; border-radius: 6px; font-size: 14px; font-weight: 650; text-decoration: none; white-space: nowrap; }
 .github-link { background: var(--ink); color: var(--canvas); }
-.contribution-link { border-color: var(--line); color: var(--ink); }
-.contribution-link:hover { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+.locmanic-link { border-color: var(--line); color: var(--ink); }
+.locmanic-link:hover { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
 .github-link:hover { background: var(--near-black); }
 .wordmark:hover { color: var(--accent); }
 .intro { padding-block: 64px 38px; max-width: 950px; }
@@ -148,7 +148,7 @@ kbd { border: 1px solid var(--line); border-radius: 3px; padding: 0 6px; color: 
   .header-actions a { flex: 1; }
   .wordmark { font-size: 11px; gap: 9px; }
   .brand-mark { width: 28px; height: 28px; }
-  .github-link, .contribution-link { font-size: 12px; gap: 6px; padding-inline: 10px; }
+  .github-link, .locmanic-link { font-size: 12px; gap: 6px; padding-inline: 10px; }
   .github-link svg { display: none; }
   .intro { padding-block: 40px 28px; }
   h1 { font-size: 46px; max-width: 13ch; margin-bottom: 18px; }
@@ -176,7 +176,8 @@ kbd { border: 1px solid var(--line); border-radius: 3px; padding: 0 6px; color: 
 }
 @media (max-width: 360px) {
   .page, .header-inner { width: calc(100% - 28px); }
-  .github-link, .contribution-link { padding-inline: 8px; }
+  .github-link, .locmanic-link { padding-inline: 8px; }
+  .header-actions a > span[aria-hidden="true"] { display: none; }
   h1 { font-size: 42px; }
   .search-field { gap: 8px; padding-inline: 10px; }
 }
