@@ -116,6 +116,7 @@ Products for connecting engines and choosing which provider handles a translatio
 
 - [Custom.MT Platform](https://custom.mt/custom-machine-translation-platform/) - Machine translation hub with templates for multiple engines. Choose engines for language and domain needs and configure backup engines for continuity.
 - [Intento Language Hub](https://inten.to/enterprise-language-hub/) - Translation platform with configurable engine routing tables. Route requests by language pair to primary and backup providers through one translation integration.
+- [Localize.io](https://localize.io/) - Translation API that routes each language and content type to an AI model you choose, with optional linguist review as a separate job. Send strings with screenshots, glossary terms, and translation memory over REST or MCP, and get them back after placeholder, tag, and terminology checks, with each model call's prompt, tokens, and cost recorded.
 - [Phrase Language AI](https://support.phrase.com/hc/en-us/articles/5709660879516-Phrase-Language-AI-Machine-Translation-in-Phrase) - MT routing hub for Phrase products and API workflows. Configure MT profiles and use MT Autoselect to select engines by language pair and, for supported source languages, content domain.
 
 ## Translation Management and Collaboration
