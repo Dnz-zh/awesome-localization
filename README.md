@@ -90,6 +90,7 @@ Tools for finding linguistic errors, checking consistency, and reviewing transla
 
 - [lexiQA](https://lexiqa.net/) - Linguistic QA service with an API and CAT integrations. Check translated text as it is written against rules for spelling, terminology, formatting, and consistency with the source.
 - [LocalyzerQA](https://lingoport.com/software-localization-tools/localyzerqa-lqa/) - Linguistic review tool for localized applications. Navigate the application, select text on screen, and submit a corrected translation with the interface context visible.
+- [QACAT](https://qacat.alconost.com) - Localization QA platform from Alconost combining rule-based checks, AI-assisted review, and human linguist validation. Import XLIFF, XLSX, JSON, or pull strings directly from Crowdin, then review flagged segments against screenshots of the live product interface.
 - [Verifika](https://e-verifika.com/) - QA application for bilingual translation files. Detect formatting, consistency, terminology, spelling, and number issues, then review and correct them in its editor.
 - [Xbench](https://www.xbench.net/) - Desktop translation QA and terminology checker. Load CAT files, run selected QA checks or reusable checklists, and export issue reports.
 
